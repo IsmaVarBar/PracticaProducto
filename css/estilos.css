@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+  }
+  
+  header {
+    background: #007aff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+  nav ul li a:hover, nav ul li a:focus {
+    background-color: #005cbf;
+    border-radius: 5px;
+  }
+  
+  section {
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  section h2 {
+    color: #007aff;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0;
+  }
+  
+  .pro-con-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .pros, .contras {
+    background: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 1em 0;
+    width: 100%; /* Full width on small screens */
+  }
+  
+  @media (min-width: 600px) {
+    .pros, .contras {
+      width: 48%; /* Adjusts the width to fit side by side on medium screens and up */
+    }
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em; /* Adds space before the footer */
+  }
+  
